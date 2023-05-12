@@ -14,3 +14,123 @@
 }
 
 /* GENERAL */
+
+
+.container{
+    height: calc(100vh - 100px);
+    
+}
+
+.botton{
+    height: 100px;
+}
+
+
+.head{
+    display: flex;
+    justify-content: right; 
+    align-items: center;
+     
+}
+
+.container-grid{
+    width: 100%;
+    height: calc(100vh - 100px);
+  
+
+}
+
+.icon-1{
+    padding: 5px;
+}
+
+.icon-2{
+    
+    padding: 3px;
+    text-align: center;
+    
+}
+
+
+
+.icon{
+    
+    background-color: grey;
+    border-radius: 3px;
+    margin-top:3px;
+   
+}
+
+div > .icon{
+    margin-right: 3px;
+}
+
+
+ /* GRILL */
+
+
+ .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 3px;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    height:100%
+  }
+  
+  .grid > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    vertical-align: bottom;
+    height: 100%;
+  }
+
+  .text-grid{
+    display: flex;
+    align-items: flex-end;
+   
+  }
+  .span{
+    vertical-align: bottom;
+    background-color: lightgray;
+    font-size: 0.8em;
+
+    /* color: white; */
+
+  }
+
+  .grid-img{
+    background-image: url('https://media-assets.vanityfair.it/photos/63bd8d4cbfc634a7add3823f/4:3/w_3743,h_2807,c_limit/GettyImages-517130780.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+
+   /* FOOT  */
+
+.first-section{
+    width: 50%;
+    height: 100%;
+}
+
+.first-section > * {
+    display: inline-block;
+}
+
+/* DEGUB */
+
+
+.debug .botton{
+    background-color: brown;
+}
+
+.debug .container{
+    background-color: black
+}
+
+.debug .first-section{
+    background-color: yellowgreen;
+}
+
