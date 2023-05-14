@@ -149,12 +149,14 @@ div > .icon{
     color: green;
 }
 
-.fa-microphone{
+.fa-microphone-slash{
     font-size: 1.7em;
     padding: 4px ;
-    margin-top: 10px;
+    margin-top: 10px ;
+}
 
-    
+.bottom > .fa-microphone {
+    margin-top: 10px;
 }
 
 .fa-video{
