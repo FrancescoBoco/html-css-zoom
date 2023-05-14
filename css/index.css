@@ -17,19 +17,18 @@
 
 
 .container{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     
 }
 
-.botton{
-    height: 100px;
-}
+
 
 
 .head{
     display: flex;
     justify-content: right; 
     align-items: center;
+    background-color: black;
      
 }
 
@@ -109,28 +108,72 @@ div > .icon{
 
 
    /* FOOT  */
+.bottom{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+}
 
 .first-section{
-    width: 50%;
+    width: 20%;
     height: 100%;
+    display: flex;
 }
 
-.first-section > * {
-    display: inline-block;
+.second-section{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+
 }
+
+.display-inline{
+    display: inline;
+    
+}
+.third-section{
+    width: 20%;
+    height: 100%;
+    background-color: gray;
+    position: relative;
+}
+
+.chevron-down{
+    margin-top: 30px;
+}
+
+.green{
+    color: green;
+}
+
+.fa-microphone{
+    font-size: 1.7em;
+    padding: 4px ;
+    margin-top: 10px;
+
+    
+}
+
+.fa-video{
+    font-size: 1.7em;
+    padding: 4px ;
+    margin-top: 10px;
+}
+
+.end-meeting{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: brown;
+
+}
+
 
 /* DEGUB */
 
 
-.debug .botton{
-    background-color: brown;
-}
-
-.debug .container{
-    background-color: black
-}
-
-.debug .first-section{
-    background-color: yellowgreen;
-}
 
